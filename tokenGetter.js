@@ -1,3 +1,14 @@
+/*
+This function generates a token for an ArcGIS Enterprise and returns the token value to the user
+
+@input --> portalURL --> ex: "https://mceweb.esri.local/portal"
+@input --> portalURL --> ex: "samir"
+@input --> portalURL --> ex: "IAmAFakePassword"
+
+@output --> token --> ex: "fewhbeuwg23uyvu2y3vu23vrv32u3vru23vjhvfb2hu3vu23"
+*/
+
+
 async function get_token(portalURL, userName, password) {
 
     // Prepare a token request
